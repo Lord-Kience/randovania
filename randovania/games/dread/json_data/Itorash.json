@@ -418,15 +418,6 @@
                                                 }
                                             ]
                                         }
-                                    },
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "tricks",
-                                            "name": "Walljump",
-                                            "amount": 2,
-                                            "negate": false
-                                        }
                                     }
                                 ]
                             }
@@ -513,15 +504,6 @@
                                                     }
                                                 }
                                             ]
-                                        }
-                                    },
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "tricks",
-                                            "name": "Walljump",
-                                            "amount": 2,
-                                            "negate": false
                                         }
                                     }
                                 ]
@@ -622,7 +604,7 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "connections": {
-                        "Event - Breakable (block_pbcolumn_000)": {
+                        "Event - Destroy Generator": {
                             "type": "template",
                             "data": "Lay Power Bomb"
                         },
@@ -727,7 +709,7 @@
                         }
                     }
                 },
-                "Event - Breakable (block_pbcolumn_000)": {
+                "Event - Destroy Generator": {
                     "node_type": "event",
                     "heal": false,
                     "coordinates": {

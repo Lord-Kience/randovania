@@ -69,7 +69,7 @@ Extra - asset_id: collision_camera_001
       Metroid DNA 1 and Metroid DNA 10 and Metroid DNA 11 and Metroid DNA 12 and Metroid DNA 2 and Metroid DNA 3 and Metroid DNA 4 and Metroid DNA 5 and Metroid DNA 6 and Metroid DNA 7 and Metroid DNA 8 and Metroid DNA 9
   > Artifact Gate
       Any of the following:
-          Speed Booster or Walljump (Intermediate) or Simple IBJ or Use Spin Boost
+          Speed Booster or Simple IBJ or Use Spin Boost
           Flash Shift and Walljump (Beginner)
 
 > Elevator to Hanubia; Heals? False; Spawn Point
@@ -85,7 +85,7 @@ Extra - asset_id: collision_camera_001
       Trivial
   > Artifact Gate
       Any of the following:
-          Speed Booster or Walljump (Intermediate) or Simple IBJ or Use Spin Boost
+          Speed Booster or Simple IBJ or Use Spin Boost
           Flash Shift and Walljump (Beginner)
 
 > Artifact Gate; Heals? False
@@ -109,19 +109,19 @@ Extra - asset_id: collision_camera_002
   * Extra - left_shield_def: None
   * Extra - right_shield_entity: {EMPTY}
   * Extra - right_shield_def: None
-  > Event - Breakable (block_pbcolumn_000)
+  > Event - Destroy Generator
       Lay Power Bomb
   > Elevator to Raven Beak Arena
       All of the following:
-          After Itorash - block_pbcolumn_000
+          After Itorash - Destroy Generator
           Any of the following:
               Space Jump or Speed Booster or Simple IBJ
               Spin Boost and Walljump (Beginner)
               Flash Shift and Walljump (Intermediate)
 
-> Event - Breakable (block_pbcolumn_000); Heals? False
+> Event - Destroy Generator; Heals? False
   * Layers: default
-  * Event Itorash - block_pbcolumn_000
+  * Event Itorash - Destroy Generator
   * Extra - actor_name: block_pbcolumn_000
   * Extra - actor_def: actordef:actors/props/block_pbcolumn/charclasses/block_pbcolumn.bmsad
   > Door to Save Station

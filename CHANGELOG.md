@@ -5,8 +5,42 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.6.0] - 2022-09-01
+## [5.1.0] - 2022-10-01
 
+- Changed: Discord slash command for FAQ has better usability on mobile.
+
+### Cave Story
+
+- Nothing.
+
+### Metroid Dread
+
+- Added FAQ entry about Speed Booster/Phantom Cloak/Storm Missile not working.
+ 
+#### Logic Database
+
+- Nothing yet.
+
+### Metroid Prime
+
+- Nothing.
+
+### Metroid Prime 2: Echoes
+
+- Nothing.
+
+## [5.0.1] - 2022-09-??
+
+- Fixed: The README and front page now lists Metroid Dread as a supported game.
+
+### Metroid Dread
+
+- Fixed: The differences tab no longer mentions Kraid and Corpius checkpoints being removed, as that's not a thing.
+- Fixed: Missing credits in Randovania itself for SkyTheLucario's new map icons.
+
+## [5.0.0] - 2022-09-10
+
+- **Major** - Added: Metroid Dread has been added with full single-player support.
 - **Major** - Added: An installer is now provided for Windows. With it rdvgame files are associated to open with Randovania, for ease of use. A shortcut for opening just the auto tracker is also provided.
 - **Major** - Changed: The UI has been significantly revamped, with each game having their own section and an easy to use selector.
 - Changed: The multi-pickup placement, using the new weighting, is now the default mode. The old behavior has been removed.
@@ -20,42 +54,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed: Changing the selected backend while it's being used should no longer cause issues.
 - Fixed: Unexpected exceptions during generation now properly display an error message.
 - Fixed: Trick usage in preset summary now ignores tricks that are hidden from the UI.
+- Fixed: /database-inspect command no longer shows EventPickup nodes.
+- Fixed: Data Editor is now correctly named Data Editor instead of Data Visualizer.
 
 ### Cave Story
 
-- Nothing.
-
-#### Patcher Changes
-
-- Nothing.
-
-#### Logic Database
-
-- Nothing.
+- The hints fix affects Cave Story.
 
 ### Metroid Prime
 
 - **Major** - Added: Enemy Attribute Rando. Enemy stat values such as speed and scale can be randomized within a range you specify.
 
-#### Patcher Changes
-
-- Nothing.
-
-#### Logic Database
-
-- Nothing.
-
 ### Metroid Prime 2: Echoes
 
-- Nothing.
-
-#### Patcher Changes
-
-- Nothing.
-
-#### Logic Database
-
-- Nothing.
+- The hints fix affects Metroid Prime 2: Echoes.
 
 ## [4.5.1] - 2022-08-03
 
